@@ -1,0 +1,32 @@
+# Build output
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+Testing/
+
+# Object / library / executable files
+*.o
+*.obj
+*.a
+*.so
+*.lib
+*.dll
+*.exe
+*.out
+*.pdb
+
+# Logs / temp
+*.log
+*.tmp
+*.swp
+*.swo
+
+# IDE/editor caches
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/settings.json
